@@ -34,4 +34,6 @@ You can easily extend this by splitting code into separate files or adding more 
 
 You can deploy this quiz app easily using GitHub Pages by pushing your code to a GitHub repository and enabling GitHub Pages in the repository settings. 
 
+Site is currently Live [here](https://javascript-quiz-fsd.netlify.app/).
+
 ---
