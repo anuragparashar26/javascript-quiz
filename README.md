@@ -1,4 +1,4 @@
-# Quiz App
+# Javascript Quiz App
 
 A simple, interactive quiz application built with HTML, CSS, and JavaScript.  
 Users can answer multiple-choice questions, see their score, and retry the quiz.
