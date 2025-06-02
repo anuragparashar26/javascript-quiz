@@ -1,39 +1,72 @@
-# Javascript Quiz App
+# React JavaScript Quiz App
 
-A simple, interactive quiz application built with HTML, CSS, and JavaScript.  
-Users can answer multiple-choice questions, see their score, and retry the quiz.
+An interactive, multiple-choice quiz application built using **React**, **JavaScript**, and **CSS**.  
+Users can answer questions, receive a final score, and retake the quiz with a clean, responsive UI.
 
-## Features
+## 🚀 Features
 
-- Multiple-choice questions with immediate feedback
-- Score tracking and display at the end of the quiz
-- Responsive and clean UI
+- Multiple-choice questions with instant scoring
+- Modular and reusable React components
+- Score display and "Try Again" functionality
+- Fully responsive layout
+- Clean code structure for scalability
 
-## How to Use
+## 📁 Project Structure
 
-1. Open `index.html` in any modern web browser.
-2. Answer the questions by selecting an option and clicking **Next**.
-3. At the end of the quiz, your score is displayed.
-4. Click **Try Again** to retake the quiz.
+```
 
-## Project Structure
+/public
+└── index.html                # Root HTML file
+/src
+├── assets/                  # Static assets (images, etc.)
+├── components/              # Reusable components: Quiz, Question, Result
+├── data/                    # quizData.js with questions
+├── styles/                  # CSS files for styling
+├── App.jsx                  # Root component
+├── main.jsx                 # Entry point
+└── index.css                # Global styles
 
-- `index.html` — Contains the entire app (HTML, CSS, JavaScript).
-  
-You can easily extend this by splitting code into separate files or adding more questions.
+````
 
-## Technologies Used
+## 🛠 Technologies Used
 
+- React (via Vite)
+- JavaScript (ES6+)
 - HTML5
 - CSS3
-- JavaScript
 
----
+## 📦 Getting Started
 
-### Optional: Deployment
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/anuragparashar26/javascript-quiz.git
+   cd javascript-quiz
 
-You can deploy this quiz app easily using GitHub Pages by pushing your code to a GitHub repository and enabling GitHub Pages in the repository settings. 
+2. **Install dependencies**
 
-Site is currently Live [here](https://javascript-quiz-fsd.netlify.app/).
+   ```bash
+   npm install
+   ```
 
----
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+## 📤 Deployment
+
+This app is deployed on **Netlify**.
+
+🔗 **Live Demo:** [Netlify](https://javascript-quiz-fsd.netlify.app/)
+
+To deploy it yourself:
+
+* Push your code to GitHub
+* Connect the repo to Netlify
+* Set the build command: `npm run build`
+* Set the publish directory: `dist`
+
+> Built with ❤️ using React
